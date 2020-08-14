@@ -1,0 +1,11 @@
+#page-header {
+  background-color: var(--header-woliver);
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#page-header img {
+  margin: 0.5rem auto;
+  height: 6rem;
+}
