@@ -4,12 +4,12 @@
 }
 
 #page-calculate-cac .page-header {
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
 }
 
 #page-calculate-cac main {
   background-color: var(--background);
-  margin-top: -5rem;
+  margin-top: -2rem;
   border-radius: 2rem;
   padding: 2rem 4rem;
   overflow: hidden;
