@@ -1,5 +1,6 @@
 .input-block {
-  margin: 1.4rem auto
+  width: 90%;
+  margin: 1.4rem auto;
 }
 
 .input-block label{
@@ -9,9 +10,16 @@
 .input-block input {
   width: 100%;
   height: 4rem;
+  margin-top: 0.5rem;
   border-radius: 1rem;
   border: 1px solid var(--color-line-in-white);
   outline: 0;
   padding: 0 1.6rem;
   font: 1.6rem Archivo;
+  background-color: var(--grey-green);
+  transition: 0.8s;
+}
+
+.input-block input:focus {
+  background-color: var(--grey-green-dark);
 }

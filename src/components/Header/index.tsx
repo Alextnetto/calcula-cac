@@ -6,7 +6,7 @@ import './styles.css'
 
 function Header() {
   return (
-    <header id='page-header'>
+    <header className='page-header'>
       <img src={aylaLogo} alt="Ayla"/>
     </header>
   )

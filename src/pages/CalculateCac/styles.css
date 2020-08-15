@@ -1,0 +1,61 @@
+#page-calculate-cac {
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-calculate-cac .page-header {
+  padding-bottom: 6rem;
+}
+
+#page-calculate-cac main {
+  background-color: var(--background);
+  margin-top: -5rem;
+  border-radius: 2rem;
+  padding: 2rem 4rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+#page-calculate-cac main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page-calculate-cac h1 {
+  font: 600 2rem Poppins;
+  color: var(--grey-dark);
+  text-align: center;
+  margin: auto 2rem;
+}
+
+
+#page-calculate-cac main .button-calculate {
+  width: 70%;
+  margin-top: 1.6rem;
+  height: 4rem;
+  border-radius: 0.8rem;
+  border: 0;
+  outline: 0;
+  background-color: var(--green);
+  transition: background-color 0.4s;
+  box-shadow: 0 9px #999;
+  cursor: pointer;
+}
+
+#page-calculate-cac main .button-calculate:hover {
+  background-color: var(--green-dark);
+}
+
+#page-calculate-cac main .button-calculate:active {
+  background-color: var(--green-dark);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#page-calculate-cac main .result {
+  margin-top: 2rem;
+}
